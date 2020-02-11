@@ -5,16 +5,31 @@ Exemplu pseudo-clase si pseudo-elemente
 	<head>
 		<title>Demo Pseudo-Clase si Pseudo-elemente</title>
 		<style>
+			.red {
+				color: blue;
+			}
 
+			p {
+				color: yellow;
+			}
+
+			#container p {
+				color: green;
+			}
+
+			#container .red {
+				color: purple;
+			}
 		</style>
 	</head>
 
 	<body>
-		<div id=“container”>
-			<p class=“red”>This is some text</p>
+		<div id="container">
+			<p class="red">This is some text</p>
 			<p>This is <span>more</span> text</p>
-			<p>Link to <a href=“http://www.scoalainformala.com”>Scoala Informala</a></p>
-			<a href=“http://www.google.com”>Google</a>
+			<p>Link to <a href="http://www.scoalainformala.com">Scoala Informala</a></p>
+			<a href="http://www.google.com">Google</a>
+			<p class="quote">ceva</p> 
 			<q>Some quotes</q>, he said, <q>are better than none</q>.
 		</div>
 	</body>
